@@ -128,7 +128,7 @@
                         left: 0,
                         top: 0,
                         overflow: "hidden",
-                        visibility: "hidden"
+                        visibility: (i == 0) ? "visible" : "hidden"
                     });
 
                     // Get the image from the scrollholder
