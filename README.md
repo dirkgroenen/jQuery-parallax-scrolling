@@ -29,6 +29,10 @@ $.parallax({
 });
 ```
 
+Browser compatibility
+---------------------
+The plugin has been tested in Chrome, Firefox and Internet Explorer 8+.
+
 Demo
 -----
 If you download the .zip you can check the ```index.html``` for a demo.
