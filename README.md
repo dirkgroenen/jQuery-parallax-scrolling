@@ -35,4 +35,4 @@ The plugin has been tested in Chrome, Firefox and Internet Explorer 8+.
 
 Demo
 -----
-If you download the .zip you can check the ```index.html``` for a demo.
+[Click here](http://dirkgroenen.github.io/jQuery-parallax-scrolling/) for a demo if this plugin 
