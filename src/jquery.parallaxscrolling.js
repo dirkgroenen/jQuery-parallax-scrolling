@@ -2,7 +2,7 @@
     Using this method we can achieve a way higher performance and won't have any flickering when scrolling.
     Based on the Spotify website.
     
-    Copyright © 2014 - Dirk Groenen
+    Copyright Â© 2014 - Dirk Groenen
     Version 1.0
 */
 (function($){
@@ -117,7 +117,7 @@
                     var $bgimage = $(".scroll-holder[data-index='" + i + "']");
                     
                     // Hide all the photowraps, these are now replaced by the scroll-holder
-                    $wrap.find('img').css('visibility','hidden');
+                    $wrap.css('visibility','hidden');
                     
                     // (Re)set css values
                     $bgimage.css({
