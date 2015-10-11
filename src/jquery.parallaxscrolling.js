@@ -96,6 +96,7 @@
                 });
             }
             $(window).bind("scroll resize load", checkViewportElements);
+            $(document).on("ready", checkViewportElements);
 
             /* 
              * Create a copy of all the images, stretch them to fill the background and place them in the document
@@ -156,6 +157,7 @@
                 });
             };
             $(window).bind("load resize", calculatePhotoPosition);
+            $(document).on("ready", calculatePhotoPosition);
         }
     });
 })(jQuery);
